@@ -168,9 +168,9 @@ ll.insertFirst(3);
 ll.insertLast(4);
 // ll.insertAt(5, 2);
 // ll.clearList();
-ll.printListData();
 // ll.getAt(8);
 ll.removeAt(1);
+ll.printListData();
 
 // console.log(ll);
 
