@@ -1,0 +1,25 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Review-ASAC/Linked-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Review-ASAC/Linked-List/issues"
+  },
+  "homepage": "https://github.com/Review-ASAC/Linked-List#readme",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "node": "^18.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
