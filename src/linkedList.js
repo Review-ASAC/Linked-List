@@ -1,6 +1,6 @@
 "use strict";
 
-const Node = require("../node");
+const Node = require("./node");
 
 //
 class LinkedList {
@@ -13,6 +13,7 @@ class LinkedList {
   }
 
   // Insert first Node
+  // Insert the Node in the beginning of the Linked list and make it the first Node.
   insertFirst(data) {
     try {
       // If the is any data in the head this will be pushed to the next head.
@@ -166,12 +167,24 @@ ll.insertFirst(1);
 ll.insertFirst(2);
 ll.insertFirst(3);
 ll.insertLast(4);
-// ll.insertAt(5, 2);
-// ll.clearList();
-// ll.getAt(8);
-ll.removeAt(1);
+ll.insertFirst(5);
+
+// console.log("Print List");
+// ll.printListData();
+
+// console.log("Insert At");
+// ll.insertAt(6, 2);
+// ll.printListData(1);
+
+// console.log("Get At");
+// ll.getAt(1);
+// console.log("Remove At");
+// ll.removeAt(1);
+
+console.log("Print List");
 ll.printListData();
 
-// console.log(ll);
+console.log("Clear List");
+ll.clearList();
 
 module.exports = LinkedList;
